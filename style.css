@@ -1,0 +1,46 @@
+body{
+    background-image: url("imagem.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+    font-family:Arial;
+}
+
+.calculadora{
+    background:#1b0a51;
+    padding:20px;
+    border-radius:10px;
+}
+
+#resultado{
+    width:100%;
+    height:40px;
+    margin-bottom:10px;
+
+    font-size:20px;
+    text-align:right;
+}
+
+.botoes{
+    display:grid;
+    grid-template-columns:repeat(4,50px);
+    gap:10px;
+}
+
+button{
+    height:40px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.nome{
+    color:rgb(0, 0, 0);
+    margin-bottom:15px;
+    font-size:22px;
+}
